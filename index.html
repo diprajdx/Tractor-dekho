@@ -1,0 +1,189 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>TractorDekho – Find Your Best Tractor</title>  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />  
+  <style>  
+    * {  
+      margin: 0;  
+      padding: 0;  
+      box-sizing: border-box;  
+      font-family: 'Roboto', sans-serif;  
+    }  
+  
+    body {  
+      background: #f9f9f9;  
+      color: #333;  
+    }  
+  
+    header {  
+      background: #2e7d32;  
+      color: white;  
+      padding: 15px 30px;  
+      display: flex;  
+      justify-content: space-between;  
+      align-items: center;  
+    }  
+  
+    header h1 {  
+      font-size: 24px;  
+    }  
+  
+header {  
+  background-color: #2e7d32;  
+  padding: 15px 20px;  
+  color: white;  
+}  
+  
+.container {  
+  display: grid;  
+  justify-content: space-between;  
+  align-items: center;  
+  max-width: 1100px;  
+  margin: 20px;  
+}  
+  
+nav {  
+  position: relative;  
+}  
+  
+.nav-links {  
+  list-style: none;  
+  display: flex;  
+  gap: 20px;  
+}  
+  
+.nav-links li a {  
+  color: white;  
+  text-decoration: none;  
+  font-weight: bold;  
+  padding: 88px 10px;  
+  transition: background 0.3s;  
+}  
+  
+.nav-links li a:hover {  
+  background: rgba(255, 255, 255, 0.2);  
+  border-radius: 4px;  
+}  
+  
+.hamburger {  
+  display: none;  
+  font-size: 28px;  
+  cursor: pointer;  
+  user-select: none;  
+}  
+    .hero {  
+      background: url('https://img.freepik.com/free-photo/tractor-cultivating-field-sunset_1150-17836.jpg') no-repeat center center/cover;  
+      height: 300px;  
+      display: flex;  
+      align-items: center;  
+      justify-content: center;  
+      color: white;  
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);  
+      font-size: 32px;  
+      font-weight: bold;  
+    }  
+  
+    .section {  
+      padding: 40px 30px;  
+    }  
+  
+    .section h2 {  
+      margin-bottom: 20px;  
+      font-size: 24px;  
+      color: #2e7d32;  
+    }  
+  
+    .brand-cards {  
+      display: grid;  
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));  
+      gap: 20px;  
+    }  
+  
+    .brand-card {  
+      background: white;  
+      padding: 20px;  
+      border-radius: 8px;  
+      text-align: center;  
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);  
+      cursor: pointer;  
+      transition: transform 0.2s ease;  
+    }  
+  
+    .brand-card:hover {  
+      transform: translateY(-5px);  
+    }  
+  
+    .brand-card img {  
+      width: 80px;  
+      height: 60px;  
+      object-fit: contain;  
+      margin-bottom: 10px;  
+    }  
+  
+    .footer {  
+      background: #2e7d32;  
+      color: white;  
+      text-align: center;  
+      padding: 20px;  
+      margin-top: 40px;  
+    }  
+  
+    @media (max-width: 600px) {  
+      .hero {  
+        font-size: 22px;  
+        text-align: center;  
+      }  
+    }  
+  </style>  
+</head>  
+<body>  
+<!-- ✅ Updated Header with Hamburger Menu -->  
+<header>  
+  <div class="container">  
+    <h1>TractorDekho</h1>  
+    
+    <nav>  
+      <ul class="nav-links" id="navLinks">  
+        <li><a href="index.html">Home</a></li>  
+        <li><a href="brands.html">Brands</a></li>  
+        <li><a href="#">Compare</a></li>  
+        <li><a href="tractor manager.html">Add Tractor</a></li>  
+        <li><a href="#">Login</a></li>  
+      </ul>  
+    </nav>  
+  </div>  
+</header>  
+  
+  <div class="hero">  
+    Find the Perfect Tractor for Your Farming Needs 🚜  
+  </div>  
+  
+  <div class="section">  
+    <h2>Popular Brands</h2>  
+    <div class="brand-cards">  
+      <div class="brand-card">  
+        <img src="MahindraLogo.png " alt="Mahindra">  
+        <div>Mahindra</div>  
+      </div>  
+      <div class="brand-card">  
+        <img src="johndeer.png" alt="John Deere">  
+        <div>John Deere</div>  
+      </div>  
+      <div class="brand-card">  
+        <img src="swarajlogo.webp " alt="Swaraj">  
+        <div>Swaraj</div>  
+      </div>  
+      <div class="brand-card">  
+        <img src="SONALIKA_LOGO.jpg" alt="Sonalika">  
+        <div>Sonalika</div>  
+      </div>  
+    </div>  
+  </div>  
+  
+  <div class="section">  
+    <h2>Why TractorDekho?</h2>  
+    <ul>  
+      <li>Compare 100+ Tractor Models
