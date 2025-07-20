@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tractor Brands</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
+    .brand-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      margin: 30px;
+    }
+    .brand-card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .brand-card:hover {
+      transform: scale(1.05);
+    }
+    .brand-card img {
+      max-width: 100%;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>  <header>
+    <a href="index.html">← Home</a>
+    <h1>Tractor Brands</h1>
+  </header>  <div class="brand-grid">
+    <div class="brand-card"><img src="MahindraLogo.png" alt="Mahindra"><div>Mahindra</div></div>
+    <div class="brand-card"><img src="johndeer.png" alt="John Deere"><div>John Deere</div></div>
+    <div class="brand-card"><img src="swarajlogo.webp" alt="Swaraj"><div>Swaraj</div></div>
+    <div class="brand-card"><img src="SONALIKA_LOGO.jpg" alt="Sonalika"><div>Sonalika</div></div>
+    <div class="brand-card"><img src="EicherLogo.webp" alt="Eicher"><div>Eicher</div></div>
+    <div class="brand-card"><img src="Escorts.png" alt="Escorts"><div>Escorts</div></div>
+    <div class="brand-card"><img src="kubota.jpg" alt="Kubota"><div>Kubota</div></div>
+    <div class="brand-card"><img src="Farmtrac.png" alt="Farmtrac"><div>Farmtrac</div></div>
+    <div class="brand-card"><img src="powertrac.webp" alt="Powertrac"><div>Powertrac</div></div>
+    <div class="brand-card"><img src="indofarm.jpg" alt="Indo Farm"><div>Indo Farm</div></div>
+    <div class="brand-card"><img src="massey.webp" alt="Massey"><div>Massey Ferguson</div></div>
+  </div></body>
+</html>
